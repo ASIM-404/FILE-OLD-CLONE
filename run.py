@@ -411,7 +411,7 @@ class Main:
 		print(logo)
 		print("")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[0;92m𝗡𝗢𝗧𝗘 : Follow My Facrbook Account")
+		print("\033[0;92m    𝗡𝗢𝗧𝗘 : Follow My Facrbook Account")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - ")
 		
 		
