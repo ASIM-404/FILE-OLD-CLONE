@@ -389,16 +389,17 @@ def follow(ses,coki):
 
 logo = ("""\033[1;32m
        
-          \033[0;92m    ___     ____  ____  __  ___
-          \033[0;92m  / _ |   / __/ /  _/ /  |/  /
-         \033[0;92m  / __ |  _\ \  _/ /  / /|_/ / 
-          \033[0;92m/_/ |_| /___/ /___/ /_/  /_/  
+          \033[0;92m █████  ███████ ██ ███    ███ 
+          \033[0;92m██   ██ ██      ██ ████  ████ 
+         \033[0;92m ███████ ███████ ██ ██ ████ ██ 
+          \033[0;92m██   ██      ██ ██ ██  ██  ██ 
+          \033[0;92m██   ██ ███████ ██ ██      ██
          
      \033[0;92m┌───────────────────────────────────────┐
      \033[0;92m│ [✓] AUTHOR   : Asim Xhakma            │
      \033[0;92m│ [✓] GITHUB   : ASIM-404               │
-     \033[0;92m│ [✓] WHATSAPP :  +88 01828881765       │
-     \033[0;92m│ [✓] TOOLS    : \033[1;32m RANDOM NUMBER CLONER\033[1;37m  │
+     \033[0;92m│ [✓] WHATSAPP : +8801828881765        │
+     \033[0;92m│ [✓] TOOLS    :\033[1;32m RANDOM NUMBER CLONER\033[0;92m   │
      \033[0;92m└───────────────────────────────────────┘""")
 
 class Main:
@@ -411,15 +412,15 @@ class Main:
 		print(logo)
 		print("")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37m𝗡𝗢𝗧𝗘 : Follow My Facrbook Account")
+		print("\033[0;92m𝗡𝗢𝗧𝗘 : Follow My Facrbook Account")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
 		
 		
 		print("")
-		print("\033[1;37m [1] 𝗙𝗶𝗿𝘀𝘁 JOIN ME GROUP  ")
-		print("\033[1;37m [2] 𝗘𝘅𝗶𝘁")
+		print("\033[0;92m [1] 𝗙𝗶𝗿𝘀𝘁 JOIN ME GROUP  ")
+		print("\033[0;92m [2] 𝗘𝘅𝗶𝘁")
 		print("")
-		Baloch = input("\n\033[1;37m  Choose : \033[1;32m")
+		Baloch = input("\n\033[0;92m  Choose : \033[1;32m")
 		if Baloch in ["", " "]:
 			exit()
 		elif Baloch in ["2", "02"]:
@@ -429,9 +430,9 @@ class Main:
 			os.system("xdg-open https://www.facebook.com/halarput.link.coppy.korli.ken ")
 			print("")
 			time.sleep(3.0)
-			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
+			print("\033[0;92m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
 			print("")
-			input("\n\033[1;37m TYPE YOUR FB ACCOUNT NAME \033[1;37m")
+			input("\n\033[0;92m TYPE YOUR FB ACCOUNT NAME \033[0;92m")
 			time.sleep(3.1)
 			print("")
 			print("\033[1;32m Use Flight Mod before clonning")
@@ -475,7 +476,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[0;92m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
@@ -902,7 +903,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[0;92m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
